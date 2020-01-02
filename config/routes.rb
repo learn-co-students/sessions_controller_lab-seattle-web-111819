@@ -5,3 +5,16 @@ Rails.application.routes.draw do
   post '/login' => 'sessions#create'
   post '/logout' => 'sessions#destroy'
 end
+
+
+  #Am######## get 'sessions/new'
+  ###### root 'application#hello'
+  # get '/login' => 'sessions#new'
+  # post '/login' => 'sessions#create'
+  # post '/logout' => 'sessions#destroy'
+
+
+  #Sn#### root 'application#hello', as: 'root'
+  # get '/login', to: 'sessions#new', as: 'login'
+  # post '/login' => 'sessions#create'
+  # post '/logout', to: 'sessions#destroy', as: 'logout'
